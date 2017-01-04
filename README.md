@@ -1,2 +1,2 @@
 # react-redux-sample
-React Redux with react widgets intregration
+React MVC with react widgets intregration
