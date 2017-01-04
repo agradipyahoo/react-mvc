@@ -4,8 +4,6 @@
     "react": "15.3.0",
     "react-dom": "15.3.0",
     "react-starter-components": "^1.0.12",
-    "dropdown":"^1.0.0",
-    "tree":"^1.0.0",
     "todomvc-app-css": "2.0.6",
     "bluebird": "^3.4.6",
     "history": "^4.2.0",
@@ -13,6 +11,8 @@
     "moment": "^2.15.1",
     "rxjs": "^5.0.0-beta.12",
     "universal-router": "^1.2.2",
+    "react-dropdown-component": "^1.0.0",
+    "react-tree-components": "^1.0.0",
     "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {

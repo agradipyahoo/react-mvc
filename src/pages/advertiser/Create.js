@@ -3,8 +3,8 @@
  */
 import React, {Component} from 'react';
 import {core, components} from 'react-starter-components';
-import DropDown from "dropdown";
-import Tree from "tree";
+import DropDown from "react-dropdown-component";
+import Tree from "react-tree-components";
 import {SimpleCheckbox, SimpleElement, SimpleSelect, SimpleInput, SimpleTextArea} from '../../components/simpleForm'
 const {SmartWrapper, Loader, MessageStack} = core;
 const {List, ViewStateManager, ViewState} = components.common;
@@ -74,7 +74,7 @@ export default class AdvertiserCreate extends Component {
                                 </div>
                                 <div className="row element-row gutter-sm">
                                     <div className="col-md-2 t-right control-label">State/City</div>
-                                    <div className="col-md-4"><Tree showSearch={true} selectTreeItems={selectTreeItems} items={treeList} multiSelect={true}></Tree></div>
+                                    <div className="col-md-4"><Tree showSearch={true}  items={treeList} multiSelect={true}></Tree></div>
                                 </div>
                             </div>
                         </Form>
