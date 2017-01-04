@@ -1,0 +1,23 @@
+{
+  "private":true,
+  "name": "dropdown",
+  "version": "1.0.0",
+  "description": "Dropdown UI widgets with React.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agradipyahoo/dropdown.git"
+  },
+  "keywords": [
+    "React",
+    "SingleSelect",
+    "and",
+    "MultiSelect",
+    "DropDown"
+  ],
+  "author": "Agradip Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agradipyahoo/dropdown/issues"
+  }
+}
