@@ -57,24 +57,22 @@ export default class AdvertiserCreate extends Component {
         selectTreeItems.push({id:'sc5',name:'carrier' + 5});
         let selectedItems = [{id:1,name:'item1'}];
         return <div>
-            <div className="page-title"><i className="fa fa-user-plus" aria-hidden="true"></i> Create Advertiser: Simple Form</div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <Form className="form-horizontal">
                             <div className="element-group">
-                                <h5 className="form-sub-title">Account Information</h5>
                                 <div className="row element-row gutter-sm">
                                     <div className="col-md-2 t-right control-label">Sex</div>
                                     <div className="col-md-4"><DropDown showSearch={true} items={items} showClearSelection={true}></DropDown></div>
                                 </div>
                                 <div className="row element-row gutter-sm">
                                     <div className="col-md-2 t-right control-label">Language</div>
-                                    <div className="col-md-4"><DropDown showSearch={true} items={items} showClearSelection={true} multiSelect={true} selectedItems={selectedItems}></DropDown></div>
+                                    <div className="col-md-4"><DropDown showSearch={true} items={items}  multiSelect={true} selectedItems={selectedItems}></DropDown></div>
                                 </div>
                                 <div className="row element-row gutter-sm">
                                     <div className="col-md-2 t-right control-label">State/City</div>
-                                    <div className="col-md-4"><Tree showSearch={true}  items={treeList} multiSelect={true}></Tree></div>
+                                    <div className="col-md-4"><Tree  items={treeList} multiSelect={true}></Tree></div>
                                 </div>
                             </div>
                         </Form>

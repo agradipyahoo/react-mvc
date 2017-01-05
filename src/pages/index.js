@@ -1,4 +1,4 @@
-/* ***** generated file - do not edit ***** */ 
+/* ***** generated file - do not edit ***** */
 export AdvertiserCreate from "./advertiser/Create"
 export AdvertiserList from "./advertiser/List"
 export CampaignCreate from "./campaign/Create"
@@ -8,3 +8,4 @@ export PublisherCreate from "./publisher/Create"
 export PublisherList from "./publisher/List"
 export Unknown from "./Unknown"
 export UserLogin from "./user/Login"
+export ExamplePage from "./example"
